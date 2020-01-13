@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="card_album_radius">5dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="padding_fivedp">5dp</dimen>
+    <dimen name="margin_fifteendp">15dp</dimen>
+
+    <dimen name="fortydp">40dp</dimen>
+    <dimen name="onedp">1dp</dimen>
+    <dimen name="twentydp">20dp</dimen>
+    <dimen name="fifteydp">50dp</dimen>
+    <dimen name="hundereddp">100dp</dimen>
+    <dimen name="twohundereddp">200dp</dimen>
+    <dimen name="twodp">2dp</dimen>
+</resources>

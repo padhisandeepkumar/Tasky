@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Task Application</string>
+    <string name="taskone">Task 1</string>
+    <string name="tasktwo">Task 2</string>
+
+    <string name="connect_to_server">Connect To Server</string>
+    <string name="error_msg">"Something went Wrong"</string>
+    <string name="connected_msg">"Connected to server successfully"</string>
+    <string name="error_connection">"Connection failed"</string>
+    <string name="error_net">"Poor Internet Connection, PLease check your internet before try to connect!,.."</string>
+    <string name="btn_group">"Group"</string>
+    <string name="error_max">"13 Items has been added, which is max limit"</string>
+</resources>

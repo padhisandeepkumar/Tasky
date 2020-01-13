@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/grid_cards"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/twohundereddp"
+        android:layout_margin="@dimen/onedp"
+        android:numColumns="13"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/onedp"
+        android:verticalSpacing="@dimen/onedp"/>
+
+    <GridView
+        android:id="@+id/grid_selected"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hundereddp"
+        android:layout_marginBottom="@dimen/fifteydp"
+        android:layout_marginLeft="@dimen/twentydp"
+        android:layout_marginRight="@dimen/twentydp"
+        android:layout_alignParentBottom="true"
+        android:numColumns="13"
+        android:horizontalSpacing="@dimen/onedp"
+        android:verticalSpacing="@dimen/onedp"/>
+
+    <Button
+        android:id="@+id/btn_group"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/fortydp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:onClick="onClick"
+        android:text="@string/btn_group"/>
+
+</RelativeLayout>
